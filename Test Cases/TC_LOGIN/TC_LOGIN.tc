@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LOGIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fe703bb-90c3-48e7-bc14-bd6f034bed2f</testCaseGuid>
+   <variable>
+      <defaultValue>'Login Brick'</defaultValue>
+      <description></description>
+      <id>e2cb42ac-9147-4268-9e40-973b112b2b85</id>
+      <masked>false</masked>
+      <name>TC_DESC</name>
+   </variable>
+   <variable>
+      <defaultValue>'LINK'</defaultValue>
+      <description></description>
+      <id>82a5b93b-16f8-4466-9a88-6c182c6df30a</id>
+      <masked>false</masked>
+      <name>TYPE</name>
+   </variable>
+   <variable>
+      <defaultValue>'invalid@mail.com'</defaultValue>
+      <description></description>
+      <id>990f1d52-e1db-4990-9600-67e446e8cf28</id>
+      <masked>false</masked>
+      <name>EMAIL</name>
+   </variable>
+   <variable>
+      <defaultValue>'CSt51UwWECc='</defaultValue>
+      <description></description>
+      <id>50d03a1a-e7e6-46f5-b503-df0e00bf3cbc</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/OR_LOGIN/LINK_FORGET_PASSWORD'</defaultValue>
+      <description></description>
+      <id>14c7a705-2a7c-425c-a48f-803eef361a0d</id>
+      <masked>false</masked>
+      <name>OBJECT_REPO</name>
+   </variable>
+   <variable>
+      <defaultValue>'Error'</defaultValue>
+      <description></description>
+      <id>9ad94841-591c-4cc3-a445-549d7f01173b</id>
+      <masked>false</masked>
+      <name>VERIFY_TEXT</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://brick-qa-assignment.herokuapp.com/forgot'</defaultValue>
+      <description></description>
+      <id>c8539517-164d-4229-b81c-d4bb4407c991</id>
+      <masked>false</masked>
+      <name>EXPECTED_URL</name>
+   </variable>
+</TestCaseEntity>

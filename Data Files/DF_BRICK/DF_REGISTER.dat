@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DF_REGISTER</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c5818a55-464d-41f1-be94-fee9747f335d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Register+new+account+until+success TESTING LASTNAME null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FPOPUP_SUCCESS Success POSITIVE</data>
+   <data>Register+account+using+email+already+exist TESTING LASTNAME null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FPOPUP_ERROR Error NEGATIVE</data>
+   <data>Register+new+account+not+input+field+first+name null LASTNAME null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FWARNING_FIRST_NAME Please+enter+a+firstname NEGATIVE</data>
+   <data>Register+new+account+not+input+field+last+name TESTING null null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FWARNING_LAST_NAME Please+enter+a+lastname NEGATIVE</data>
+   <data>Register+new+account+not+input+field+email VALID_EMAIL LASTNAME null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FWARNING_EMAIL Please+provide+an+email NEGATIVE</data>
+   <data>Register+new+account+using+invalid+format+email VALID_EMAIL LASTNAME validemail 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FWARNING_EMAIL Please+enter+a+valid+email+address. NEGATIVE</data>
+   <data>Register+new+account+not+input+field+Password TESTING LASTNAME null 878912 Jalan+Raya+Brick+No+1 null nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_REGISTER%2FWARNING_PASSWORD Please+enter+a+password NEGATIVE</data>
+   <data>Register+new+account+not+input+field+Confirm+Password TESTING LASTNAME null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D null Object+Repository%2FOR_REGISTER%2FWARNING_CONFIRM_PASSWORD Please+enter+a+password NEGATIVE</data>
+   <data>Register+new+account+input+field+confirm+password+not+match+with+field+password TESTING LASTNAME null 878912 Jalan+Raya+Brick+No+1 nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D slnia5prn5k%3D Object+Repository%2FOR_REGISTER%2FWARNING_CONFIRM_PASSWORD Password+need+to+match NEGATIVE</data>
+   <data>Register+account+with+input+password+%3C+6+character TESTING LASTNAME null 878912 Jalan+Raya+Brick+No+1 tzH6RvlfSTg%3D slnia5prn5k%3D Object+Repository%2FOR_REGISTER%2FWARNING_PASSWORD Please+enter+at+least+6+characters. NEGATIVE</data>
+   <data>Verify+link+login+can+be+click+direct+to+login+page null null null null null null null null null LINK</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>TC_DESC</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>FIRST_NAME</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>LAST_NAME</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>EMAIL</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>PHONE_NUMBER</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>ADDRESS</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>PASSWORD</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>CONFIRM_PASSWORD</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>OBJECT_REPO</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>VERIFY_TEXT</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>TYPE</name>
+      <size>11</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

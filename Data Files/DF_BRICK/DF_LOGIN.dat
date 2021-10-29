@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DF_LOGIN</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d0579ca8-0149-4f9a-9608-2260925809df</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Login+using+new+account POSITIVE null nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_LOGIN%2FPOPUP_TITLE Success null</data>
+   <data>Login+input+field+email+using+invalid+email NEGATIVE invalid%40mail.com nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_LOGIN%2FPOPUP_TITLE Error null</data>
+   <data>Login+input+field+password+using+invalid+password NEGATIVE invalid%40mail.com %2Fxi5hnHfyV4%3D Object+Repository%2FOR_LOGIN%2FPOPUP_TITLE Error null</data>
+   <data>Login+not+input+field+email NEGATIVE null nwr9I1qT%2BJ0GbQ%2B%2BJlYjHw%3D%3D Object+Repository%2FOR_LOGIN%2FPOPUP_TITLE null null</data>
+   <data>Login+not+input+field+password NEGATIVE password%40empty.com null Object+Repository%2FOR_LOGIN%2FPOPUP_TITLE null null</data>
+   <data>Click+link+forget+password LINK null null Object+Repository%2FOR_LOGIN%2FLINK_FORGET_PASSWORD null https%3A%2F%2Fbrick-qa-assignment.herokuapp.com%2Fforgot</data>
+   <data>Click+link+Sign+Up LINK null null Object+Repository%2FOR_LOGIN%2FLINK_SIGNUP null https%3A%2F%2Fbrick-qa-assignment.herokuapp.com%2F</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>TC_DESC</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>TYPE</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>EMAIL</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>PASSWORD</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>OBJECT_REPO</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>VERIFY_TEXT</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>EXPECTED_URL</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
