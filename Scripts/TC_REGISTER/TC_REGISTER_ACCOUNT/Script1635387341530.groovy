@@ -37,6 +37,12 @@ if (TYPE == 'POSITIVE') {
 	
 	WebUI.setText(findTestObject('Object Repository/OR_REGISTER/FIELD_EMAIL'), EMAIL_ACCOUNT, FailureHandling.STOP_ON_FAILURE)
 	
+	WebUI.click(findTestObject('Object Repository/OR_COUNTRY/COUNTRY'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject(OBJECT_COUNTRY), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('Object Repository/OR_REGISTER/FIELD_PHONE_NUMBER'), FailureHandling.STOP_ON_FAILURE)
+	
 	WebUI.sendKeys(findTestObject('Object Repository/OR_REGISTER/FIELD_PHONE_NUMBER'), PHONE_NUMBER + RANDOM_NUMBER, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.setText(findTestObject('Object Repository/OR_REGISTER/FIELD_ADDRESS'), ADDRESS , FailureHandling.STOP_ON_FAILURE)

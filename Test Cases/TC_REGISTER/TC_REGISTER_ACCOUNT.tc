@@ -76,10 +76,17 @@
       <name>VERIFY_TEXT</name>
    </variable>
    <variable>
-      <defaultValue>'LINK'</defaultValue>
+      <defaultValue>'POSITIVE'</defaultValue>
       <description></description>
       <id>5d1c89a1-edd1-4477-a24d-237a0fcddfea</id>
       <masked>false</masked>
       <name>TYPE</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/OR_COUNTRY/SINGAPORE'</defaultValue>
+      <description></description>
+      <id>f7c7ad9d-aa52-4960-ac9e-597dfed02286</id>
+      <masked>false</masked>
+      <name>OBJECT_COUNTRY</name>
    </variable>
 </TestCaseEntity>

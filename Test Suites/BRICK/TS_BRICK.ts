@@ -21,7 +21,7 @@
          <id>a04327b1-483e-4580-aa0e-7271ff8b4e8b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>12-16</value>
          </iterationEntity>
          <testDataId>Data Files/DF_BRICK/DF_REGISTER</testDataId>
       </testDataLink>
@@ -90,6 +90,12 @@
          <type>DATA_COLUMN</type>
          <value>TYPE</value>
          <variableId>5d1c89a1-edd1-4477-a24d-237a0fcddfea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a04327b1-483e-4580-aa0e-7271ff8b4e8b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>OBJECT_COUNTRY</value>
+         <variableId>f7c7ad9d-aa52-4960-ac9e-597dfed02286</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
